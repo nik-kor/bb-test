@@ -2,37 +2,36 @@
 # yarn lockfile v1
 
 
-accept@3.x.x:
-  version "3.1.3"
-  resolved "https://registry.npmjs.org/accept/-/accept-3.1.3.tgz#29c3e2b3a8f4eedbc2b690e472b9ebbdc7385e87"
+accept@2.x.x:
+  version "2.1.4"
+  resolved "https://registry.npmjs.org/accept/-/accept-2.1.4.tgz#887af54ceee5c7f4430461971ec400c61d09acbb"
   dependencies:
-    boom "7.x.x"
-    hoek "6.x.x"
+    boom "5.x.x"
+    hoek "4.x.x"
 
-ammo@3.x.x:
+ammo@2.x.x:
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/ammo/-/ammo-2.0.4.tgz#bf80aab211698ea78f63ef5e7f113dd5d9e8917f"
+  dependencies:
+    boom "5.x.x"
+    hoek "4.x.x"
+
+axios@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.npmjs.org/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
+  dependencies:
+    follow-redirects "^1.3.0"
+    is-buffer "^1.1.5"
+
+b64@3.x.x:
   version "3.0.3"
-  resolved "https://registry.npmjs.org/ammo/-/ammo-3.0.3.tgz#502aafa9d8bfca264143e226e5f322716e746b0c"
-  dependencies:
-    hoek "6.x.x"
+  resolved "https://registry.npmjs.org/b64/-/b64-3.0.3.tgz#36afeee0d9345f046387ce6de8a6702afe5bb56e"
 
-b64@4.x.x:
-  version "4.1.2"
-  resolved "https://registry.npmjs.org/b64/-/b64-4.1.2.tgz#7015372ba8101f7fb18da070717a93c28c8580d8"
+boom@5.x.x:
+  version "5.2.0"
+  resolved "https://registry.npmjs.org/boom/-/boom-5.2.0.tgz#5dd9da6ee3a5f302077436290cb717d3f4a54e02"
   dependencies:
-    hoek "6.x.x"
-
-boom@7.x.x:
-  version "7.3.0"
-  resolved "https://registry.npmjs.org/boom/-/boom-7.3.0.tgz#733a6d956d33b0b1999da3fe6c12996950d017b9"
-  dependencies:
-    hoek "6.x.x"
-
-bounce@1.x.x:
-  version "1.2.3"
-  resolved "https://registry.npmjs.org/bounce/-/bounce-1.2.3.tgz#2b286d36eb21d5f08fe672dd8cd37a109baad121"
-  dependencies:
-    boom "7.x.x"
-    hoek "6.x.x"
+    hoek "4.x.x"
 
 bourne@1.x.x:
   version "1.1.2"
@@ -42,43 +41,54 @@ buffer-equal-constant-time@1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz#f8e71132f7ffe6e01a5c9697a4c6f3e48d5cc819"
 
-call@5.x.x:
-  version "5.0.3"
-  resolved "https://registry.npmjs.org/call/-/call-5.0.3.tgz#5dc82c698141c2d45c51a9c3c7e0697f43ac46a2"
+call@4.x.x:
+  version "4.0.2"
+  resolved "https://registry.npmjs.org/call/-/call-4.0.2.tgz#df76f5f51ee8dd48b856ac8400f7e69e6d7399c4"
   dependencies:
-    boom "7.x.x"
-    hoek "6.x.x"
+    boom "5.x.x"
+    hoek "4.x.x"
 
-catbox-memory@4.x.x:
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/catbox-memory/-/catbox-memory-4.0.1.tgz#3371ae0dd91bbf5d9dd88dcab5332470354cbd1f"
+catbox-memory@2.x.x:
+  version "2.0.4"
+  resolved "https://registry.npmjs.org/catbox-memory/-/catbox-memory-2.0.4.tgz#433e255902caf54233d1286429c8f4df14e822d5"
   dependencies:
-    boom "7.x.x"
-    hoek "6.x.x"
+    hoek "4.x.x"
 
-catbox@10.x.x:
-  version "10.0.6"
-  resolved "https://registry.npmjs.org/catbox/-/catbox-10.0.6.tgz#d8d8dc3c36c965560539f94245904b229a8af428"
+catbox@7.x.x:
+  version "7.1.5"
+  resolved "https://registry.npmjs.org/catbox/-/catbox-7.1.5.tgz#c56f7e8e9555d27c0dc038a96ef73e57d186bb1f"
   dependencies:
-    boom "7.x.x"
-    hoek "6.x.x"
-    joi "14.x.x"
+    boom "5.x.x"
+    hoek "4.x.x"
+    joi "10.x.x"
 
-content@4.x.x:
-  version "4.0.6"
-  resolved "https://registry.npmjs.org/content/-/content-4.0.6.tgz#76ffd96c5cbccf64fe3923cbb9c48b8bc04b273e"
+config@^1.24.0:
+  version "1.31.0"
+  resolved "https://registry.npmjs.org/config/-/config-1.31.0.tgz#ab08aeba6536015d220cd0afe14b3e0501082542"
   dependencies:
-    boom "7.x.x"
+    json5 "^1.0.1"
+
+content@3.x.x:
+  version "3.0.7"
+  resolved "https://registry.npmjs.org/content/-/content-3.0.7.tgz#0cbb88e82702d35ccf59800b8add609bb5c1dfc2"
+  dependencies:
+    boom "5.x.x"
 
 core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-cryptiles@4.x.x:
-  version "4.1.3"
-  resolved "https://registry.npmjs.org/cryptiles/-/cryptiles-4.1.3.tgz#2461d3390ea0b82c643a6ba79f0ed491b0934c25"
+cryptiles@3.x.x:
+  version "3.1.4"
+  resolved "https://registry.npmjs.org/cryptiles/-/cryptiles-3.1.4.tgz#769a68c95612b56faadfcebf57ac86479cbe8322"
   dependencies:
-    boom "7.x.x"
+    boom "5.x.x"
+
+debug@^3.2.6:
+  version "3.2.6"
+  resolved "https://registry.npmjs.org/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
+  dependencies:
+    ms "^2.1.1"
 
 duplexify@^3.5.3:
   version "3.7.1"
@@ -101,75 +111,111 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-good-console@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.npmjs.org/good-console/-/good-console-8.0.0.tgz#cc7262081f09fac5678b397e8847c194fbf85f64"
-  dependencies:
-    hoek "6.x.x"
-    joi "14.x.x"
-    json-stringify-safe "5.x.x"
-    moment "2.x.x"
+fast-safe-stringify@2.0.x:
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/fast-safe-stringify/-/fast-safe-stringify-2.0.6.tgz#04b26106cc56681f51a044cfc0d76cf0008ac2c2"
 
-good@^8.1.2:
-  version "8.1.2"
-  resolved "https://registry.npmjs.org/good/-/good-8.1.2.tgz#de601cf25202a486b9ef5475c218bc178414e8eb"
+follow-redirects@^1.3.0:
+  version "1.7.0"
+  resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.7.0.tgz#489ebc198dc0e7f64167bd23b03c4c19b5784c76"
   dependencies:
-    hoek "6.x.x"
-    joi "14.x.x"
-    oppsy "2.x.x"
+    debug "^3.2.6"
+
+good-console@^6.4.0:
+  version "6.4.1"
+  resolved "https://registry.npmjs.org/good-console/-/good-console-6.4.1.tgz#5922974868bcf3bd9594372ba33818dc0d01a464"
+  dependencies:
+    hoek "4.x.x"
+    joi "8.1.x"
+    json-stringify-safe "5.0.x"
+    moment "2.19.x"
+
+good-squeeze@^5.0.2:
+  version "5.1.0"
+  resolved "https://registry.npmjs.org/good-squeeze/-/good-squeeze-5.1.0.tgz#265f3e8be6081aa44c55d484d1af375e166752b9"
+  dependencies:
+    fast-safe-stringify "2.0.x"
+    hoek "4.2.x"
+
+good@^7.1.0:
+  version "7.3.0"
+  resolved "https://registry.npmjs.org/good/-/good-7.3.0.tgz#25da74d51f336692ec86fe8d6533453585fa85fe"
+  dependencies:
+    hoek "4.x.x"
+    joi "10.x.x"
+    oppsy "1.x.x"
     pumpify "1.3.x"
 
-hapi@^18.1.0:
-  version "18.1.0"
-  resolved "https://registry.npmjs.org/hapi/-/hapi-18.1.0.tgz#98a2a5a8f37a41eb196bdad9727f66b1fbca5fec"
+hapi@^16.1.0:
+  version "16.7.0"
+  resolved "https://registry.npmjs.org/hapi/-/hapi-16.7.0.tgz#3bb39517971df81e8198ec04751455e8b6cb0871"
   dependencies:
-    accept "3.x.x"
-    ammo "3.x.x"
-    boom "7.x.x"
-    bounce "1.x.x"
-    call "5.x.x"
-    catbox "10.x.x"
-    catbox-memory "4.x.x"
-    heavy "6.x.x"
-    hoek "6.x.x"
-    joi "14.x.x"
-    mimos "4.x.x"
-    podium "3.x.x"
-    shot "4.x.x"
-    somever "2.x.x"
-    statehood "6.x.x"
-    subtext "6.x.x"
-    teamwork "3.x.x"
-    topo "3.x.x"
+    accept "2.x.x"
+    ammo "2.x.x"
+    boom "5.x.x"
+    call "4.x.x"
+    catbox "7.x.x"
+    catbox-memory "2.x.x"
+    cryptiles "3.x.x"
+    heavy "4.x.x"
+    hoek "4.x.x"
+    iron "4.x.x"
+    items "2.x.x"
+    joi "11.x.x"
+    mimos "3.x.x"
+    podium "1.x.x"
+    shot "3.x.x"
+    somever "1.x.x"
+    statehood "5.x.x"
+    subtext "5.x.x"
+    topo "2.x.x"
 
-heavy@6.x.x:
-  version "6.1.2"
-  resolved "https://registry.npmjs.org/heavy/-/heavy-6.1.2.tgz#e5d56f18170a37b01d4381bc07fece5edc68520b"
+heavy@4.x.x:
+  version "4.0.4"
+  resolved "https://registry.npmjs.org/heavy/-/heavy-4.0.4.tgz#36c91336c00ccfe852caa4d153086335cd2f00e9"
   dependencies:
-    boom "7.x.x"
-    hoek "6.x.x"
-    joi "14.x.x"
+    boom "5.x.x"
+    hoek "4.x.x"
+    joi "10.x.x"
 
-hoek@6.x.x:
-  version "6.1.2"
-  resolved "https://registry.npmjs.org/hoek/-/hoek-6.1.2.tgz#99e6d070561839de74ee427b61aa476bd6bddfd6"
+hoek@4.2.x, hoek@4.x.x:
+  version "4.2.1"
+  resolved "https://registry.npmjs.org/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
+
+inert@^4.0.2:
+  version "4.2.1"
+  resolved "https://registry.npmjs.org/inert/-/inert-4.2.1.tgz#da743c478a18a8378032f80ada128a28cd2bba93"
+  dependencies:
+    ammo "2.x.x"
+    boom "5.x.x"
+    hoek "4.x.x"
+    items "2.x.x"
+    joi "10.x.x"
+    lru-cache "4.1.x"
 
 inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.3:
   version "2.0.3"
   resolved "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
 
-iron@5.x.x:
-  version "5.0.6"
-  resolved "https://registry.npmjs.org/iron/-/iron-5.0.6.tgz#7121d4a6e3ac2f65e4d02971646fea1995434744"
+iron@4.x.x:
+  version "4.0.5"
+  resolved "https://registry.npmjs.org/iron/-/iron-4.0.5.tgz#4f042cceb8b9738f346b59aa734c83a89bc31428"
   dependencies:
-    b64 "4.x.x"
-    boom "7.x.x"
-    cryptiles "4.x.x"
-    hoek "6.x.x"
+    boom "5.x.x"
+    cryptiles "3.x.x"
+    hoek "4.x.x"
+
+is-buffer@^1.1.5:
+  version "1.1.6"
+  resolved "https://registry.npmjs.org/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
 
 isarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
+
+isemail@2.x.x:
+  version "2.2.1"
+  resolved "https://registry.npmjs.org/isemail/-/isemail-2.2.1.tgz#0353d3d9a62951080c262c2aa0a42b8ea8e9e2a6"
 
 isemail@3.x.x:
   version "3.2.0"
@@ -177,19 +223,55 @@ isemail@3.x.x:
   dependencies:
     punycode "2.x.x"
 
-joi@14.x.x:
-  version "14.3.1"
-  resolved "https://registry.npmjs.org/joi/-/joi-14.3.1.tgz#164a262ec0b855466e0c35eea2a885ae8b6c703c"
-  dependencies:
-    hoek "6.x.x"
-    isemail "3.x.x"
-    topo "3.x.x"
+items@2.x.x:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/items/-/items-2.1.2.tgz#0849354595805d586dac98e7e6e85556ea838558"
 
-json-stringify-safe@5.x.x:
+joi@10.x.x:
+  version "10.6.0"
+  resolved "https://registry.npmjs.org/joi/-/joi-10.6.0.tgz#52587f02d52b8b75cdb0c74f0b164a191a0e1fc2"
+  dependencies:
+    hoek "4.x.x"
+    isemail "2.x.x"
+    items "2.x.x"
+    topo "2.x.x"
+
+joi@11.x.x:
+  version "11.4.0"
+  resolved "https://registry.npmjs.org/joi/-/joi-11.4.0.tgz#f674897537b625e9ac3d0b7e1604c828ad913ccb"
+  dependencies:
+    hoek "4.x.x"
+    isemail "3.x.x"
+    topo "2.x.x"
+
+joi@12.x.x:
+  version "12.0.0"
+  resolved "https://registry.npmjs.org/joi/-/joi-12.0.0.tgz#46f55e68f4d9628f01bbb695902c8b307ad8d33a"
+  dependencies:
+    hoek "4.x.x"
+    isemail "3.x.x"
+    topo "2.x.x"
+
+joi@8.1.x:
+  version "8.1.1"
+  resolved "https://registry.npmjs.org/joi/-/joi-8.1.1.tgz#2d8b52a5d909d217ed47248577eefe8b1798f48f"
+  dependencies:
+    hoek "4.x.x"
+    isemail "2.x.x"
+    moment "2.x.x"
+    topo "2.x.x"
+
+json-stringify-safe@5.0.x:
   version "5.0.1"
   resolved "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
 
-jsonwebtoken@^8.4.0:
+json5@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
+  dependencies:
+    minimist "^1.2.0"
+
+jsonwebtoken@^8.0.1:
   version "8.4.0"
   resolved "https://registry.npmjs.org/jsonwebtoken/-/jsonwebtoken-8.4.0.tgz#8757f7b4cb7440d86d5e2f3becefa70536c8e46a"
   dependencies:
@@ -246,31 +328,42 @@ lodash.once@^4.0.0:
   version "4.1.1"
   resolved "https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
 
+lru-cache@4.1.x:
+  version "4.1.5"
+  resolved "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
+  dependencies:
+    pseudomap "^1.0.2"
+    yallist "^2.1.2"
+
 mime-db@1.x.x:
   version "1.38.0"
   resolved "https://registry.npmjs.org/mime-db/-/mime-db-1.38.0.tgz#1a2aab16da9eb167b49c6e4df2d9c68d63d8e2ad"
 
-mimos@4.x.x:
-  version "4.0.2"
-  resolved "https://registry.npmjs.org/mimos/-/mimos-4.0.2.tgz#f2762d7c60118ce51c2231afa090bc335d21d0f8"
+mimos@3.x.x:
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/mimos/-/mimos-3.0.3.tgz#b9109072ad378c2b72f6a0101c43ddfb2b36641f"
   dependencies:
-    hoek "6.x.x"
+    hoek "4.x.x"
     mime-db "1.x.x"
 
-moment@2.x.x:
-  version "2.24.0"
-  resolved "https://registry.npmjs.org/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+minimist@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
+
+moment@2.19.x, moment@2.x.x:
+  version "2.19.4"
+  resolved "https://registry.npmjs.org/moment/-/moment-2.19.4.tgz#17e5e2c6ead8819c8ecfad83a0acccb312e94682"
 
 ms@^2.1.1:
   version "2.1.1"
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
 
-nigel@3.x.x:
-  version "3.0.4"
-  resolved "https://registry.npmjs.org/nigel/-/nigel-3.0.4.tgz#edcd82f2e9387fe34ba21e3127ae4891547c7945"
+nigel@2.x.x:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/nigel/-/nigel-2.0.2.tgz#93a1866fb0c52d87390aa75e2b161f4b5c75e5b1"
   dependencies:
-    hoek "6.x.x"
-    vise "3.x.x"
+    hoek "4.x.x"
+    vise "2.x.x"
 
 once@^1.3.1, once@^1.4.0:
   version "1.4.0"
@@ -278,32 +371,38 @@ once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
-oppsy@2.x.x:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/oppsy/-/oppsy-2.0.1.tgz#91da3b4cc5cc6527dae3f04d67c7db87e4e4448c"
+oppsy@1.x.x:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/oppsy/-/oppsy-1.0.2.tgz#98014cd6967653a83cfffa554226dc90050baad4"
   dependencies:
-    hoek "6.x.x"
+    hoek "4.x.x"
+    items "2.x.x"
 
-pez@4.x.x:
-  version "4.0.5"
-  resolved "https://registry.npmjs.org/pez/-/pez-4.0.5.tgz#a975c49deff330d298d82851b39f81c2710556df"
+pez@2.x.x:
+  version "2.1.5"
+  resolved "https://registry.npmjs.org/pez/-/pez-2.1.5.tgz#5ec2cc62500cc3eb4236d4a414cf5a17b5eb5007"
   dependencies:
-    b64 "4.x.x"
-    boom "7.x.x"
-    content "4.x.x"
-    hoek "6.x.x"
-    nigel "3.x.x"
+    b64 "3.x.x"
+    boom "5.x.x"
+    content "3.x.x"
+    hoek "4.x.x"
+    nigel "2.x.x"
 
-podium@3.x.x:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/podium/-/podium-3.2.0.tgz#2a7c579ddd5408f412d014c9ffac080c41d83477"
+podium@1.x.x:
+  version "1.3.0"
+  resolved "https://registry.npmjs.org/podium/-/podium-1.3.0.tgz#3c490f54d16f10f5260cbe98641f1cb733a8851c"
   dependencies:
-    hoek "6.x.x"
-    joi "14.x.x"
+    hoek "4.x.x"
+    items "2.x.x"
+    joi "10.x.x"
 
 process-nextick-args@~2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
+
+pseudomap@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
 pump@^2.0.0:
   version "2.0.1"
@@ -340,31 +439,30 @@ safe-buffer@^5.0.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
 
-shot@4.x.x:
-  version "4.0.7"
-  resolved "https://registry.npmjs.org/shot/-/shot-4.0.7.tgz#b05d2858634fedc18ece99e8f638fab7c9f9d4c4"
+shot@3.x.x:
+  version "3.4.2"
+  resolved "https://registry.npmjs.org/shot/-/shot-3.4.2.tgz#1e5c3f6f2b26649adc42f7eb350214a5a0291d67"
   dependencies:
-    hoek "6.x.x"
-    joi "14.x.x"
+    hoek "4.x.x"
+    joi "10.x.x"
 
-somever@2.x.x:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/somever/-/somever-2.0.0.tgz#7bdbed3bee8ece2c7c8a2e7d9a1c022bd98d6c89"
+somever@1.x.x:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/somever/-/somever-1.0.1.tgz#28a5c7de0d55f781af52fbce9960db1b84ce206e"
   dependencies:
-    bounce "1.x.x"
-    hoek "6.x.x"
+    hoek "4.x.x"
 
-statehood@6.x.x:
-  version "6.0.9"
-  resolved "https://registry.npmjs.org/statehood/-/statehood-6.0.9.tgz#b347ae19818aec7fc26645fe1ec6a61928a57a3c"
+statehood@5.x.x:
+  version "5.0.4"
+  resolved "https://registry.npmjs.org/statehood/-/statehood-5.0.4.tgz#bb5c343c357e3b6a18260c36cde4a282563ca558"
   dependencies:
-    boom "7.x.x"
-    bounce "1.x.x"
+    boom "5.x.x"
     bourne "1.x.x"
-    cryptiles "4.x.x"
-    hoek "6.x.x"
-    iron "5.x.x"
-    joi "14.x.x"
+    cryptiles "3.x.x"
+    hoek "4.x.x"
+    iron "4.x.x"
+    items "2.x.x"
+    joi "12.x.x"
 
 stream-shift@^1.0.0:
   version "1.0.0"
@@ -376,45 +474,44 @@ string_decoder@~1.1.1:
   dependencies:
     safe-buffer "~5.1.0"
 
-subtext@6.x.x:
-  version "6.0.12"
-  resolved "https://registry.npmjs.org/subtext/-/subtext-6.0.12.tgz#ac09be3eac1eca3396933adeadd65fc781f64fc1"
+subtext@5.x.x:
+  version "5.0.1"
+  resolved "https://registry.npmjs.org/subtext/-/subtext-5.0.1.tgz#3ba39c93260e2e2ee1eddcde371be9d5fbe88861"
   dependencies:
-    boom "7.x.x"
+    boom "5.x.x"
     bourne "1.x.x"
-    content "4.x.x"
-    hoek "6.x.x"
-    pez "4.x.x"
-    wreck "14.x.x"
+    content "3.x.x"
+    hoek "4.x.x"
+    pez "2.x.x"
+    wreck "12.x.x"
 
-teamwork@3.x.x:
-  version "3.0.3"
-  resolved "https://registry.npmjs.org/teamwork/-/teamwork-3.0.3.tgz#0c08748efe00c32c1eaf1128ef7f07ba0c7cc4ea"
-
-topo@3.x.x:
-  version "3.0.3"
-  resolved "https://registry.npmjs.org/topo/-/topo-3.0.3.tgz#d5a67fb2e69307ebeeb08402ec2a2a6f5f7ad95c"
+topo@2.x.x:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/topo/-/topo-2.0.2.tgz#cd5615752539057c0dc0491a621c3bc6fbe1d182"
   dependencies:
-    hoek "6.x.x"
+    hoek "4.x.x"
 
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
-vise@3.x.x:
-  version "3.0.2"
-  resolved "https://registry.npmjs.org/vise/-/vise-3.0.2.tgz#9a8b7450f783aa776faa327fe47d7bfddb227266"
+vise@2.x.x:
+  version "2.0.2"
+  resolved "https://registry.npmjs.org/vise/-/vise-2.0.2.tgz#6b08e8fb4cb76e3a50cd6dd0ec37338e811a0d39"
   dependencies:
-    hoek "6.x.x"
+    hoek "4.x.x"
 
 wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-wreck@14.x.x:
-  version "14.1.4"
-  resolved "https://registry.npmjs.org/wreck/-/wreck-14.1.4.tgz#c635358f4f5c99c2b977978258443193830e8274"
+wreck@12.x.x:
+  version "12.5.1"
+  resolved "https://registry.npmjs.org/wreck/-/wreck-12.5.1.tgz#cd2ffce167449e1f0242ed9cf80552e20fb6902a"
   dependencies:
-    boom "7.x.x"
-    bourne "1.x.x"
-    hoek "6.x.x"
+    boom "5.x.x"
+    hoek "4.x.x"
+
+yallist@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
