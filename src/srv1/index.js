@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 
 createServer({
     port: 3001,
-    srvName: 'SRV1',
+    srvName: 'SRV1(simple)',
     routes: [
         {
             method: 'GET',

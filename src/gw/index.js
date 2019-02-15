@@ -12,9 +12,10 @@ createServer({
             path: '/hello',
             handler: async (req, reply) => {
                 const authHeader = req.headers.authorization;
+                const authRE = /Bearer (.*)/;
 
-                if (typeof authHeader !== 'undefined' && /Bearer (.*)/.test(authHeader)) { // srv2
-                    const token = /Bearer (.*)/.exec(authHeader)[1];
+                if (typeof authHeader !== 'undefined' && authRE.test(authHeader)) { // srv2
+                    const token = authRE.exec(authHeader)[1];
                     const decoded = jwt.decode(token);
                     const { data: { message } } = await axios.get(`http://localhost:3002/hello?name=${decoded.name}`);
 
